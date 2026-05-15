@@ -50,7 +50,7 @@ hasCJKLanguage = false
 [params]
   env = "production"
   showToC = false
-  
+  displayFullLangName = true
   [params.Label]
     text = "FindMe"
 

@@ -14,7 +14,7 @@ hasCJKLanguage = false
     [languages.en.params.profileMode]
       enabled = true
       title = "Hi there! 👋"
-      subtitle = "Welcome to my personal space. This is the English version of my profile site."
+      subtitle = "Welcome. This is my profile site."
       imageUrl = "https://github.com/rayyangh.png"
       imageWidth = 150
       imageHeight = 150
@@ -34,7 +34,7 @@ hasCJKLanguage = false
     [languages.ar.params.profileMode]
       enabled = true
       title = "أهلاً بك! 👋"
-      subtitle = "مرحباً بك في مساحتي الشخصية. هذه هي النسخة العربية لصفحتي التعريفية."
+      subtitle = "مرحباً بك. هذه هي لصفحتي التعريفية."
       imageUrl = "https://github.com/rayyangh.png"
       imageWidth = 150
       imageHeight = 150

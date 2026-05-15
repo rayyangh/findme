@@ -11,23 +11,19 @@ hasCJKLanguage = false
     languageCode = "en-us"
     weight = 1
     title = "Rayyan | Home"
-    [languages.en.params]
-      [languages.en.params.profileMode]
-        enabled = true
-        title = "Hi there! 👋"
-        subtitle = "Welcome to my personal space. This is the English version of my profile site."
-        imageUrl = "https://github.com/rayyangh.png"
-        imageWidth = 150
-        imageHeight = 150
-        imageTitle = "Rayyan"
-        [[languages.en.params.profileMode.buttons]]
-          name = "Projects"
-          url = "https://github.com/rayyangh/findme"
-        [[languages.en.params.profileMode.buttons]]
-          name = "GitHub"
-          url = "https://github.com/rayyangh"
-      [[languages.en.params.socialIcons]]
-        name = "github"
+    [languages.en.params.profileMode]
+      enabled = true
+      title = "Hi there! 👋"
+      subtitle = "Welcome to my personal space. This is the English version of my profile site."
+      imageUrl = "https://github.com/rayyangh.png"
+      imageWidth = 150
+      imageHeight = 150
+      imageTitle = "Rayyan"
+      [[languages.en.params.profileMode.buttons]]
+        name = "Projects"
+        url = "https://github.com/rayyangh/findme"
+      [[languages.en.params.profileMode.buttons]]
+        name = "GitHub"
         url = "https://github.com/rayyangh"
 
   [languages.ar]
@@ -35,28 +31,51 @@ hasCJKLanguage = false
     languageCode = "ar"
     weight = 2
     title = "ريان | الرئيسية"
-    [languages.ar.params]
-      [languages.ar.params.profileMode]
-        enabled = true
-        title = "أهلاً بك! 👋"
-        subtitle = "مرحباً بك في مساحتي الشخصية. هذه هي النسخة العربية لصفحتي التعريفية."
-        imageUrl = "https://github.com/rayyangh.png"
-        imageWidth = 150
-        imageHeight = 150
-        imageTitle = "ريان"
-        [[languages.ar.params.profileMode.buttons]]
-          name = "المشاريع"
-          url = "https://github.com/rayyangh/findme"
-        [[languages.ar.params.profileMode.buttons]]
-          name = "غيت هاب"
-          url = "https://github.com/rayyangh"
-      [[languages.ar.params.socialIcons]]
-        name = "github"
+    [languages.ar.params.profileMode]
+      enabled = true
+      title = "أهلاً بك! 👋"
+      subtitle = "مرحباً بك في مساحتي الشخصية. هذه هي النسخة العربية لصفحتي التعريفية."
+      imageUrl = "https://github.com/rayyangh.png"
+      imageWidth = 150
+      imageHeight = 150
+      imageTitle = "ريان"
+      [[languages.ar.params.profileMode.buttons]]
+        name = "المشاريع"
+        url = "https://github.com/rayyangh/findme"
+      [[languages.ar.params.profileMode.buttons]]
+        name = "غيت هاب"
         url = "https://github.com/rayyangh"
 
-# Global Parameters
+# Global Parameters (Applies to all languages automatically)
 [params]
   env = "production"
   showToC = false
+  
   [params.Label]
     text = "FindMe"
+
+  # Global Social Icons 
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/rayyangh"
+  [[params.socialIcons]]
+    name = "instagram"
+    url = "https://instagram.com/rayyan.manzary"
+  [[params.socialIcons]]
+    name = "whatsapp"
+    url = "https://wa.me/15202035786"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/rayyanmanzary/"
+  [[params.socialIcons]]
+    name = "flickr"
+    url = "https://www.flickr.com/photos/201933183@N04/"
+  [[params.socialIcons]]
+    name = "snapchat"
+    url = "https://snapchat.com/add/rayyan_manzary"
+  [[params.socialIcons]]
+    name = "telegram"
+    url = "https://t.me/rayyantg"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:rayyanbc@gmail.com"

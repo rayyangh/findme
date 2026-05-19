@@ -21,10 +21,7 @@ hasCJKLanguage = false
       imageTitle = "Rayyan"
       [[languages.en.params.profileMode.buttons]]
         name = "Projects"
-        url = "https://github.com/rayyangh/findme"
-      [[languages.en.params.profileMode.buttons]]
-        name = "GitHub"
-        url = "https://github.com/rayyangh"
+        url = "https://www.flickr.com/photos/201933183@N04/"
 
   [languages.ar]
     languageName = "العربية"

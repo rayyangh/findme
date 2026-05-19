@@ -46,7 +46,7 @@ hasCJKLanguage = false
   showToC = false
   displayFullLangName = true
   [params.Label]
-    text = "FindMe"
+    text = "Rayyan M"
 
   # Global Social Icons 
   [[params.socialIcons]]

@@ -38,10 +38,7 @@ hasCJKLanguage = false
       imageTitle = "ريان"
       [[languages.ar.params.profileMode.buttons]]
         name = "المشاريع"
-        url = "https://github.com/rayyangh/findme"
-      [[languages.ar.params.profileMode.buttons]]
-        name = "غيت هاب"
-        url = "https://github.com/rayyangh"
+        url = "https://www.flickr.com/photos/201933183@N04/"
 
 # Global Parameters (Applies to all languages automatically)
 [params]
